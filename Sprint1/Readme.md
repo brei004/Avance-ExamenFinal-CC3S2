@@ -90,7 +90,7 @@ Estos tests son básicos y prácticamente los mismos pero evalúan los rangos en
 
 - Temperatura 
 
-![alt text](image-12.png)
+![alt text](images/image-12.png)
 
 Ahora los tests para los eventos, que verifican los mensajes que se envían al crear un evento determinado. Se crearon para los 3 tipos de eventos
 ![alt text](images/image-25.png)
