@@ -1,0 +1,19 @@
+
+FROM openjdk:17
+
+FROM gradle:latest
+
+
+WORKDIR /app
+
+
+COPY . .
+
+RUN sed -i 's/\r$//' gradlew && chmod +x ./gradlew
+
+
+RUN ./gradlew build
+
+CMD ["./gradlew", "pitest"]
+
+CMD ["./gradlew", "jacocoTestReport"]

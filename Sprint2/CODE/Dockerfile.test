@@ -1,0 +1,8 @@
+FROM gradle:latest
+
+WORKDIR /app
+
+COPY . .
+
+CMD ["gradle", "test"]
+

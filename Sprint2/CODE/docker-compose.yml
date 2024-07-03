@@ -1,0 +1,30 @@
+services:
+  game:
+    image: sistemaeventos
+    networks:
+      - game-network
+    volumes:
+      - game-data:/app/data
+  #database:
+  #    image: postgres:latest
+  #    networks:
+  #      - game-network
+  #    volumes:
+  #      - db-data:/var/lib/postgresql/data
+  #simulacion:
+  #    build:
+  #      context: ./simulacion_clima
+  #      dockerfile: Dockerfile
+  #    networks:
+  #      - game-network
+  #    ports:
+  #      - "5000:5000"
+  #    volumes:
+  #      - simulacion-data:/app/data
+networks:
+  game-network:
+    driver: bridge
+
+volumes:
+  game-data:
+    driver: local

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.SistemaTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-07-03T22:19:12" hostname="DESKTOP-531818M" time="0.12">
+  <properties/>
+  <testcase name="testAltaTempYAltaHumedad()" classname="org.example.SistemaTest" time="0.081"/>
+  <testcase name="testAccionCerrarPersianas()" classname="org.example.SistemaTest" time="0.003"/>
+  <testcase name="testNotificacionPocaPresion()" classname="org.example.SistemaTest" time="0.004"/>
+  <testcase name="testAlertaLluviaIntensa()" classname="org.example.SistemaTest" time="0.007"/>
+  <testcase name="testVientoIntensa()" classname="org.example.SistemaTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
