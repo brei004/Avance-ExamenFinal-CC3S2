@@ -5,7 +5,7 @@ Con el fin de seguir los paradigmas de responsabilidad única usaremos interface
 - Evento: Es la interface que implementaemos en nuestros eventos según las condiciones
 
 - Condición: Es la interface que usaremos para crear nuestras clases con las condiciones medio ambientales
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 - Condiciones ambientales:
     - lluvia fuerte --> Alerta lluvia intensa
@@ -25,48 +25,48 @@ La estructura de las clases es muy similar debido a que implementamos desde la i
 
 - Lluvia 
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 - Presion 
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 - Humedad
 
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
 - Viento 
 
-![alt text](image-7.png)
+![alt text](images/image-7.png)
 
 - Temperatura 
 
-![alt text](image-8.png)
+![alt text](images/image-8.png)
 
 ### SistemaClima
 Esta es la clase principal donde todas clases se utilizan y se relacionan
 
 - Atributos: Existen 5 atributos referido a cada medición
 
-![alt text](image-15.png)
+![alt text](images/image-15.png)
 
 - Método: Existe un método DefinirEventos que según nuestras mediciones cumplan o no condiciones se agregaran eventos al sistema
-![alt text](image-14.png)
+![alt text](images/image-14.png)
 ### Eventos 
 
 En los siguientes eventos se define el estilo mensaje que se mostrará, los métodos son muy similares
 
 - Automatico
 
-![alt text](image-19.png)
+![alt text](images/image-19.png)
 
 - Alertas
 
-![alt text](image-20.png)
+![alt text](images/image-20.png)
 
 - Notificaciones
 
-![alt text](image-21.png)
+![alt text](images/image-21.png)
 ## Tests
 
 Se crearon Tests para cada clase, de las 5 condiciones.
@@ -74,26 +74,26 @@ Estos tests son básicos y prácticamente los mismos pero evalúan los rangos en
 
 - Lluvia 
 
-![alt text](image-10.png)
+![alt text](images/image-10.png)
 
 - Presion 
 
-![alt text](image-11.png)
+![alt text](images/image-11.png)
 
 - Humedad
 
-![alt text](image-9.png)
+![alt text](images/image-9.png)
 
 - Viento 
 
-![alt text](image-13.png)
+![alt text](images/image-13.png)
 
 - Temperatura 
 
 ![alt text](image-12.png)
 
 Ahora los tests para los eventos, que verifican los mensajes que se envían al crear un evento determinado. Se crearon para los 3 tipos de eventos
-![alt text](image-25.png)
+![alt text](images/image-25.png)
 
 ### Stubs
 
